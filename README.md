@@ -1,2 +1,1 @@
-day khong la gi ca
-do con ga
+sac tiet. sac sac sac tiet
