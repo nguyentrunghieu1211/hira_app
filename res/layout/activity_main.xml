@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_5"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/frag_titles"
+        android:name="org.buianhthang.apps.fragment.titles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/gggggg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_goiy1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/goiy1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy7"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_goiy2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/goiy8"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy9"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy10"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy11"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy12"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy13"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/goiy14"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="Button" />
+    </LinearLayout>
+
+</LinearLayout>
